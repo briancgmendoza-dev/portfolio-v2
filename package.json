@@ -6,7 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "docker:start": "./docker-run.sh",
+    "docker:build": "./docker-build.sh",
+    "docker:sync": "./docker-sync.sh"
   },
   "dependencies": {
     "react": "^18",
