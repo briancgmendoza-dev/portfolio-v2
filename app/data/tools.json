@@ -1,0 +1,10 @@
+{
+  "tools": [
+    "Jira",
+    "Azure DevOps",
+    "Confluence",
+    "Microsoft Workbench",
+    "WSL (Ubuntu)",
+    "Postman"
+  ]
+}

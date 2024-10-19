@@ -1,0 +1,19 @@
+{
+  "character-reference": [
+    {
+      "name": "Jay-Ar Gabriel",
+      "position": "Senior Software Engineer",
+      "contact": "+639761966142"
+    },
+    {
+      "name": "Jerome Laurente",
+      "position": "Scrum Master",
+      "contact": "+639989748753"
+    },
+    {
+      "name": "Kris Fajardo",
+      "position": "Service Unit Leader",
+      "contact": "+639123456789"
+    }
+  ]
+}

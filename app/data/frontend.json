@@ -1,0 +1,15 @@
+{
+  "frontend": [
+    "ReactJS",
+    "NextJS",
+    "Expo React Native",
+    "Jest",
+    "React Testing Library",
+    "Material UI",
+    "TailwindCSS",
+    "Redux State Management",
+    "Redux Saga",
+    "Redux Toolkit",
+    "Responsive"
+  ]
+}
