@@ -1,15 +1,17 @@
 {
-  "college": {
-    "course": "Bachelor of Science in Computer Science",
-    "school": "University of Perpetual Help System Dalta"
-  },
-  "high-school": {
-    "school": "Las Piñas East National Highschool"
-  },
-  "grade-school": {
-    "school": [
-      "Doña Manuela Elementary School",
-      "Talaba Bacoor Elementary School"
-    ]
+  "education": {
+    "college": {
+      "course": "Bachelor of Science in Computer Science",
+      "school": "University of Perpetual Help System Dalta"
+    },
+    "high-school": {
+      "school": "Las Piñas East National Highschool"
+    },
+    "grade-school": {
+      "school": [
+        "Doña Manuela Elementary School",
+        "Talaba Bacoor Elementary School"
+      ]
+    }
   }
 }
