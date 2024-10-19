@@ -2,14 +2,6 @@
   "frontend": [
     "ReactJS",
     "NextJS",
-    "Expo React Native",
-    "Jest",
-    "React Testing Library",
-    "Material UI",
-    "TailwindCSS",
-    "Redux",
-    "Redux Saga",
-    "Redux Toolkit",
-    "Responsive"
+    "Expo React Native"
   ]
 }

@@ -1,0 +1,7 @@
+{
+  "testing-library": [
+    "Jest",
+    "React Testing Library",
+    "Vitest"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "state-management": [
+    "Redux",
+    "Redux Saga",
+    "Redux Toolkit",
+    "Context",
+    "Persist"
+  ]
+}

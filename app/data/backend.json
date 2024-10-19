@@ -2,7 +2,7 @@
   "backend": [
     "NodeJS",
     "ExpressJS",
-    "Drupal 8-10",
+    "Drupal v8-v10",
     "JWT",
     "Keycloak",
     "REST APIs"
