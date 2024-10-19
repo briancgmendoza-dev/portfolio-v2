@@ -10,6 +10,10 @@ import { tools } from "@/app/data/tools.json"
 import { experience } from "@/app/data/work-experience.json"
 import { reference } from "@/app/data/character-reference.json"
 import { education } from "@/app/data/education.json"
+import dataAnalytics from "@/app/data/data-analytics.json"
+import testingLibrary from "@/app/data/testing-library.json"
+import designLibrary from "@/app/data/design-library.json"
+import stateManagement from "@/app/data/state-management.json"
 
 export {
   profile,
@@ -23,5 +27,9 @@ export {
   tools,
   experience,
   reference,
-  education
+  education,
+  dataAnalytics,
+  testingLibrary,
+  designLibrary,
+  stateManagement
 }
