@@ -1,0 +1,10 @@
+{
+  "backend": [
+    "NodeJS",
+    "ExpressJS",
+    "Drupal 8-10",
+    "JWT",
+    "Keycloak",
+    "REST APIs"
+  ]
+}
