@@ -1,190 +1,136 @@
 {
   "experience": [
     {
-      "company": {
-        "name": "ERNI Philippines",
-        "clients": [
-          {
-            "name": "Camel PH",
-            "industry": "Tobacco",
-            "tech-stack": [
-              {
-                "frontend": [
-                  "ReactJS",
-                  "TypeScript",
-                  "MaterialUI",
-                  "Redux Toolkit",
-                  "Google Tag Manager"
-                ],
-                "backend": [
-                  "PHP",
-                  "Drupal (CMS)",
-                  "MySQL",
-                  "Redis",
-                  "Rest APIs",
-                  "Playfab",
-                  "Lando",
-                  "Docker"
-                ],
-                "game": [
-                  "Construct3",
-                  "TypeScript"
-                ]
-              }
-            ],
-            "implemented": [
-              "Creation of the ff Pages: FAQ, About, Leaderboards, Diskartasks, Games, Diskarte, Hub, One Page Tutorial and Diskartreats",
-              "Creation of the ff Games: Camel Run and Camel Shake",
-              "Leaderboards integration with Camel Run and Camel Shake using Playfab",
-              "Referral Program",
-              "Integrated zoom for live streaming event",
-              "Integrated MoEngage for data analytics"
-            ],
-            "others": {
-              "Major Refactoring in Frontend for performance and readability": [
-                "Adding form schema using Zod and its resolver",
-                "Form Handlers - React Hook Form",
-                "Proper Usage of API Calls - Axios Interceptors and Abort Controllers",
-                "Creating Reusable/Compound Components",
-                "React Memo implementation for complex data manipulation/computation.",
-                "React Callback implementation in preventing unnecessary re-creations of functions on every render."
-              ]
-            }
-          },
-          {
-            "name": "Entrego",
-            "industry": "Logistics",
-            "tech-stack": [
-              {
-                "frontend": [
-                  "ReactJS",
-                  "TypeScript",
-                  "MaterialUI",
-                  "Redux Saga",
-                  "Jest",
-                  "React Testing Library"
-                ],
-                "backend": [
-                  "NodeJS",
-                  "MySQL",
-                  "Keycloak"
-                ]
-              }
-            ],
-            "implemented": [
-              "Converted Monolithic Architecture into Microservices Architecture",
-              "Inbound Receiving Service",
-              "User Service",
-              "Role Assignment Service"
-            ]
-          }
-        ]
-      },
+      "company": "ERNI Philippines",
       "date": "June 8, 2022 - Current",
-      "position": "Full Stack Web Developer"
+      "position": "Full Stack Web Developer",
+      "clients": [
+        {
+          "name": "Camel PH",
+          "site": "www.camel.ph",
+          "frontend": [
+            "ReactJS",
+            "TypeScript",
+            "MaterialUI",
+            "Redux Toolkit",
+            "Google Tag Manager"
+          ],
+          "backend": [
+            "Drupal (CMS)",
+            "MySQL",
+            "Redis",
+            "Rest APIs",
+            "Playfab"
+          ],
+          "game": [
+            "Construct3",
+            "TypeScript"
+          ],
+          "Notable Contribution": [
+            "Major Refactoring in Frontend for performance and readability",
+            "Creating Camel Run and Camel Shake",
+            "Leaderboards integration with Camel Run and Camel Shake using Playfab",
+            "Referral Program",
+            "Integrated MoEngage for data analytics"
+          ]
+        },
+        {
+          "name": "Entrego",
+          "site": "www.entrego.ph",
+          "frontend": [
+            "ReactJS",
+            "TypeScript",
+            "MaterialUI",
+            "Redux Saga",
+            "Jest",
+            "React Testing Library"
+          ],
+          "backend": [
+            "NodeJS",
+            "MySQL",
+            "Keycloak"
+          ],
+          "Notable Contribution": [
+            "Converted Monolithic Architecture into Microservices Architecture",
+            "Inbound Receiving Service",
+            "User Service",
+            "Role Assignment Service"
+          ]
+        }
+      ]
     },
     {
-      "company": {
-        "name": "Dynamics Strategic Solutions",
-        "clients": [
-          {
-            "name": "Capslock Inc.",
-            "industry": "Gaming",
-            "tech-stack": [
-              {
-                "frontend": [
-                  "ReactJS",
-                  "TypeScript",
-                  "SCSS",
-                  "Redux",
-                  "GSAP"
-                ],
-                "backend": []
-              }
-            ],
-            "implemented": [
-              "Focused on Frontend development of new features and maintenance of Web-based and H5-based applications.",
-              "Animating Cards, Carousel and other UI elements using GSAP"
-            ]
-          }
-        ],
-        "date": "December 2021 - May 2022",
-        "position": "Full Stack Web Developer"
-      }
+      "company": "Dynamics Strategic Solutions",
+      "date": "December 2021 - May 2022",
+      "position": "Full Stack Web Developer",
+      "client": "Capslock Inc.",
+      "site": "Confidential",
+      "frontend": [
+        "ReactJS",
+        "TypeScript",
+        "SCSS",
+        "Redux",
+        "GSAP"
+      ],
+      "Notable Contribution": [
+        "Animating Cards, Carousel and other UI elements using GSAP"
+      ]
     },
     {
-      "company": {
-        "name": "Freelance",
-        "clients": [
-          {
-            "name": "Client 1",
-            "industry": "Photography",
-            "tech-stack": [
-              {
-                "frontend": [
-                  "ReactJS",
-                  "TypeScript",
-                  "MaterialUI",
-                  "Redux Toolkit"
-                ],
-                "backend": [
-                  "NodeJS",
-                  "ExpressJS",
-                  "Strapi (CMS)",
-                  "MySQL"
-                ]
-              }
-            ],
-            "implemented": [
-              "Developed and deployed a responsive website to showcase a Photographer's portfolio."
-            ]
-          },
-          {
-            "name": "Client 2",
-            "industry": "Recruitment",
-            "tech-stack": [
-              {
-                "frontend": [
-                  "ReactJS",
-                  "TypeScript",
-                  "Expo React Native",
-                  "MaterialUI",
-                  "Redux Toolkit"
-                ],
-                "backend": [
-                  "NodeJS",
-                  "ExpressJS",
-                  "MySQL"
-                ]
-              }
-            ],
-            "implemented": [
-              "Login Services and Page",
-              "Register Services and Page",
-              "Web-based and mobile-based Pages"
-            ]
-          },
-          {
-            "name": "Client 3",
-            "industry": "Payment Gateway",
-            "tech-stack": [
-              {
-                "frontend": [
-                  "ReactJS",
-                  "CSS",
-                  "Redux"
-                ],
-                "backend": []
-              }
-            ],
-            "implemented": [
-              "Create Electronic Receipt Page that allows user to import their receipts via CSV, as well as manually inputting the data."
-            ]
-          }
-        ],
-        "date": "January 2020 - November 2021",
-        "position": "Full Stack Web Developer"
-      }
+      "company": "Freelance",
+      "date": "January 2020 - November 2021",
+      "position": "Full Stack Web Developer",
+      "clients": [
+        {
+          "name": "A Photographer",
+          "frontend": [
+            "ReactJS",
+            "TypeScript",
+            "MaterialUI",
+            "Redux Toolkit"
+          ],
+          "backend": [
+            "NodeJS",
+            "ExpressJS",
+            "Strapi (CMS)",
+            "MySQL"
+          ],
+          "Notable Contribution": [
+            "Developed and deployed a responsive website to showcase a Photographer's portfolio."
+          ]
+        },
+        {
+          "name": "Papadoodz",
+          "frontend": [
+            "ReactJS",
+            "TypeScript",
+            "Expo React Native",
+            "MaterialUI",
+            "Redux Toolkit"
+          ],
+          "backend": [
+            "NodeJS",
+            "ExpressJS",
+            "MySQL"
+          ],
+          "Notable Contribution": [
+            "Login Services",
+            "Register Services",
+            "Web-based and mobile-based Pages"
+          ]
+        },
+        {
+          "name": "Xendit",
+          "frontend": [
+            "ReactJS",
+            "CSS",
+            "Redux"
+          ],
+          "Notable Contribution": [
+            "Create Electronic Receipt Page that allows user to import their receipts via CSV, as well as manually inputting the data."
+          ]
+        }
+      ]
     }
   ]
 }
