@@ -2,14 +2,15 @@ import TechStackDisplay from "@/app/_components/sections/experience/tech-stack-d
 import ClientDisplay from "@/app/_components/sections/experience/client-display";
 
 import { TExperience } from "@/app/_components/sections/experience/types";
+import Image from "next/image";
 
 const DisplayExperience = ({ experience }: { experience: TExperience[] }) => {
   return (
     <ul>
       {experience.map((item, index) => (
         <li key={index} className="mb-5">
-          <div className="flex items-center justify-between">
-            <img src="" alt={item.company} className="border rounded-full w-20 h-20 mr-5" />
+          <div className="flex items-center justify-between md:justify-evenly">
+            <Image src="" alt={item.company} className="border rounded-full mr-5 overflow-hidden" width={150} height={150} />
             <div className="flex flex-col">
               <span>{item.company}</span>
               <span>{item.date}</span>
