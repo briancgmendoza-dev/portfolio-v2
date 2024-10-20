@@ -1,5 +1,10 @@
-export default function Section({ children }: Readonly<{ children: React.ReactNode }>) {
+type TSection = {
+  children: React.ReactNode,
+  className?: string;
+}
+
+export default function Section({ children, className }: TSection) {
   return (
-    <section className="text-white">{children}</section>
+    <section className={`text-white ${className}`}>{children}</section>
   )
 }

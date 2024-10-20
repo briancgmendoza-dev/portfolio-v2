@@ -1,9 +1,10 @@
 type THeading = {
-  text: string
+  text: string;
+  underline?: boolean;
 }
 
-export default function Heading({ text }: THeading) {
+export default function Heading({ text, underline = true }: THeading) {
   return (
-    <h2 className='text-[50px] md:text-[70px] font-bold capitalize underline'>{text}</h2>
+    <h2 className={`text-[50px] md:text-[70px] font-bold capitalize ${underline && 'underline'}`}>{text}</h2>
   )
 }

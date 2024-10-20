@@ -3,6 +3,13 @@ import Image from 'next/image'
 
 export default function Avatar() {
   return (
-    <Image src="" alt="Profile Picture" className='mx-auto w-20 h-20 rounded-full border' />
+    <Image
+      src='/assets/me_professional.jpg'
+      alt="Profile Picture"
+      width={500}
+      height={500}
+      className='mx-auto object-cover'
+      priority={true}
+    />
   )
 }
