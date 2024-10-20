@@ -2,19 +2,23 @@
   "links": [
     {
       "name": "Resume",
-      "icon": null
+      "icon": "/assets/cv.png",
+      "url": "/assets/briancgmendoza.pdf"
     },
     {
       "name": "Github",
-      "icon": null
+      "icon": "/assets/github.png",
+      "url": "https://github.com/briancgmendoza"
     },
     {
       "name": "LinkedIn",
-      "icon": null
+      "icon": "/assets/linkedin.png",
+      "url": "https://www.linkedin.com/in/briancgmendoza/"
     },
     {
       "name": "Facebook",
-      "icon": null
+      "icon": "/assets/facebook.png",
+      "url": "https://www.facebook.com/moon.mendoza.547/"
     }
   ]
 }
