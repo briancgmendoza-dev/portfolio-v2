@@ -25,7 +25,7 @@ export default function Profile() {
                 <span>{value[1]}</span>
               </div>
             ) : (
-              <p className='text-gray-500 py-1'>{value}</p>
+              <p className={`text-gray-500 py-1 ${key === 'expertise' && "italic font-bold py-5"}`}>{value}</p>
             )}
           </li>
         ))}
