@@ -5,7 +5,7 @@ import { profile, links } from '@/app/data'
 
 export default function Profile() {
   return (
-    <section className='text-white pt-10'>
+    <section className='text-white'>
       <Avatar />
       <ul>
         {Object.entries(profile).map(([key, value]) => (
