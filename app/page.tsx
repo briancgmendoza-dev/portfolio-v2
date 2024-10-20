@@ -5,6 +5,7 @@ import Skills from "@/app/_components/sections/skills";
 import Experience from "@/app/_components/sections/experience";
 import Projects from "@/app/_components/sections/projects";
 import Education from "@/app/_components/sections/education";
+import CharacterReference from "@/app/_components/sections/character-reference";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         <Experience />
         <Projects />
         <Education />
+        <CharacterReference />
       </Article>
     </main>
   );
