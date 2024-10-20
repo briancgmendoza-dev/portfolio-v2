@@ -9,17 +9,19 @@ import CharacterReference from "@/app/_components/sections/character-reference";
 
 export default function Home() {
   return (
-    <main className="items-center justify-items-center min-h-screen bg-black">
-      <Aside>
-        <Profile />
-      </Aside>
-      <Article>
-        <Skills />
-        <Experience />
-        <Projects />
-        <Education />
-        <CharacterReference />
-      </Article>
+    <main className="items-center justify-items-center lg:h-screen bg-black lg:overflow-hidden">
+      <div className="lg:w-[100%] flex flex-col lg:flex-row md:items-center lg:items-start justify-center">
+        <Aside>
+          <Profile />
+        </Aside>
+        <Article>
+          <Skills />
+          <Experience />
+          <Projects />
+          <Education />
+          <CharacterReference />
+        </Article>
+      </div>
     </main>
   );
 }
