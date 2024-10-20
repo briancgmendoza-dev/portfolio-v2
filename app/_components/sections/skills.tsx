@@ -34,10 +34,10 @@ export default function Skills() {
 
   return (
     <Section>
-      <ul>
+      <ul className="py-10">
         <Heading text="skills" />
         {Object.entries(combinedData).map(([category, values], index) => (
-          <li key={category} className='mb-2'>
+          <li key={category}>
             <SubHeading text={category} />
             {values.map((value) => {
               const colorKey = colorKeys[index % colorKeys.length];

@@ -2,8 +2,11 @@
   "profile": {
     "name": "Brian Christoher Mendoza",
     "position": "Full Stack Web Developer",
-    "country_flag": null,
-    "country": "Philippines",
-    "expertise": "Expertise"
+    "country": [
+      "/assets/philippines.png", "PH, Santa Cruz Laguna"
+    ],
+    "expertise": "Helping businesses create their dream Websites. Turning their ideas to reality.",
+    "email": "briancgmendoza@gmail.com",
+    "phone": "(+639)-773-722-289"
   }
 }
