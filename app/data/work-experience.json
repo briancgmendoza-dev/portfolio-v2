@@ -8,7 +8,7 @@
       "clients": [
         {
           "name": "Camel PH",
-          "site": "www.camel.ph",
+          "site": "https://www.camel.ph",
           "frontend": [
             "ReactJS",
             "TypeScript",
@@ -37,7 +37,7 @@
         },
         {
           "name": "Entrego",
-          "site": "www.entrego.ph",
+          "site": "https://www.entrego.ph",
           "frontend": [
             "ReactJS",
             "TypeScript",
@@ -58,24 +58,29 @@
             "Role Assignment Service"
           ]
         }
-      ]
+      ],
+      "site": "https://bitly.cx/ERNI-PH"
     },
     {
       "company": "Capslock Inc.",
       "logo": "/assets/logo.png",
       "date": "December 2021 - May 2022",
       "position": "Full Stack Web Developer",
-      "client": "Capslock Inc.",
-      "site": "Confidential",
-      "frontend": [
-        "ReactJS",
-        "TypeScript",
-        "SCSS",
-        "Redux",
-        "GSAP"
-      ],
-      "Notable Contribution": [
-        "Animating Cards, Carousel and other UI elements using GSAP"
+      "clients": [
+        {
+          "name": "Confidential Gaming Sites",
+          "frontend": [
+            "ReactJS",
+            "TypeScript",
+            "SCSS",
+            "Redux",
+            "GSAP"
+          ],
+          "Notable Contribution": [
+            "Animating Cards, Carousel and other UI elements using GSAP.",
+            "Pages and Reusable component implementations for both Admin and Customer Facing sites"
+          ]
+        }
       ]
     },
     {
@@ -124,6 +129,7 @@
         },
         {
           "name": "Xendit",
+          "site": "https://www.xendit.co/en/",
           "frontend": [
             "ReactJS",
             "CSS",

@@ -3,6 +3,7 @@ export type TExperience = {
   logo: string;
   date: string;
   position: string;
+  site?: string;
   clients?: TClient[];
   frontend?: string[];
   backend?: string[];

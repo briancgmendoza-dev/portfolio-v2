@@ -15,6 +15,7 @@ const DisplayExperience = ({ experience }: { experience: TExperience[] }) => {
               <span className="text-[33px] font-bold">{item.company}</span>
               <span>{item.date}</span>
               <span className="text-[16px] font-bold">{item.position}</span>
+              <span>Website: {item.site ? <a href={item.site} target="_blank" className="text-blue-500">{item.site}</a> : "N/A"}</span>
             </div>
           </div>
 
