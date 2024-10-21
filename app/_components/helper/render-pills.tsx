@@ -13,7 +13,7 @@ const blackFontColors = ['yellow', 'orange', 'cyan'];
 export default function RenderPills({ values, colorIndex }: Readonly<TRenderPills>) {
   return (
     <div className="flex flex-wrap gap-2">
-      {values && values.map((value) => {
+      {Array.isArray(values) && values.map((value) => {
         const colorKey = colorKeys[colorIndex % colorKeys.length];
         const textColor = blackFontColors.includes(colorKey) ? 'text-black' : 'text-white';
 
