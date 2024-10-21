@@ -3,7 +3,7 @@ import Pill from "@/app/_components/ui/pill";
 import { COLORS } from "@/app/constants";
 
 type TRenderPills = {
-  values: string[];
+  values: string | string[] | undefined;
   colorIndex: number;
 };
 
@@ -12,8 +12,8 @@ const blackFontColors = ['yellow', 'orange', 'cyan'];
 
 export default function RenderPills({ values, colorIndex }: Readonly<TRenderPills>) {
   return (
-    <>
-      {values.map(value => {
+    <div className="flex flex-wrap gap-2">
+      {values && values.map((value) => {
         const colorKey = colorKeys[colorIndex % colorKeys.length];
         const textColor = blackFontColors.includes(colorKey) ? 'text-black' : 'text-white';
 
@@ -26,6 +26,6 @@ export default function RenderPills({ values, colorIndex }: Readonly<TRenderPill
           />
         );
       })}
-    </>
+    </div>
   );
 }

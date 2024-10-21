@@ -8,6 +8,14 @@
           "name": "View Code",
           "url": "https://github.com/briancgmendoza-dev/portfolio-v2"
         }
+      ],
+      "frontend": [
+        "ReactJS",
+        "TypeScript",
+        "TailwindCSS"
+      ],
+      "other": [
+        "Docker"
       ]
     },
     {
@@ -18,6 +26,51 @@
           "name": "View Site",
           "url": "https://briancgmendoza-portfolio.vercel.app/"
         }
+      ],
+      "frontend": [
+        "ReactJS",
+        "TypeScript",
+        "SCSS"
+      ]
+    },
+    {
+      "name": "Referral",
+      "banner": "/assets/logo.png",
+      "button": [
+        {
+          "name": "View Code",
+          "url": "https://github.com/briancgmendoza/referral-builder-node-mysql-react"
+        }
+      ],
+      "frontend": [
+        "ReactJS",
+        "TypeScript",
+        "Material UI",
+        "Redux Toolkit",
+        "React Hook Form",
+        "Zod"
+      ],
+      "backend": [
+        "NodeJS",
+        "TypeScript",
+        "ExoressJS",
+        "JWT",
+        "MySQL"
+      ]
+    },
+    {
+      "name": "Todos",
+      "banner": "/assets/logo.png",
+      "button": [
+        {
+          "name": "View Code",
+          "url": "https://github.com/briancgmendoza/exam-todos"
+        }
+      ],
+      "frontend": [
+        "ReactJS",
+        "SCSS",
+        "HTML"
       ]
     }
   ]
