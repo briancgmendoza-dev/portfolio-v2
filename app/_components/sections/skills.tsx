@@ -38,7 +38,7 @@ export default function Skills() {
         <Heading text="skills" />
         {Object.entries(combinedData).map(([category, values], index) => (
           <li key={category}>
-            <SubHeading text={category} />
+            <SubHeading text={category} className="mt-3 mb-0" />
             {values.map((value) => {
               const colorKey = colorKeys[index % colorKeys.length];
               const isYellow = colorKey === 'yellow';
