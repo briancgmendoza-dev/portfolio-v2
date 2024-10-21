@@ -1,0 +1,24 @@
+{
+  "projects": [
+    {
+      "name": "Portfolio v2",
+      "banner": "/assets/banner-portfolio-v2.png",
+      "button": [
+        {
+          "name": "View Code",
+          "url": "https://github.com/briancgmendoza-dev/portfolio-v2"
+        }
+      ]
+    },
+    {
+      "name": "Portfolio v1",
+      "banner": "/assets/banner-portfolio-v1.png",
+      "button": [
+        {
+          "name": "View Site",
+          "url": "https://briancgmendoza-portfolio.vercel.app/"
+        }
+      ]
+    }
+  ]
+}

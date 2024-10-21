@@ -11,6 +11,7 @@ import dataAnalytics from "@/app/data/data-analytics.json"
 import testingLibrary from "@/app/data/testing-library.json"
 import { design } from "@/app/data/design-library.json"
 import stateManagement from "@/app/data/state-management.json"
+import { projects } from "@/app/data/projects.json"
 
 export {
   profile,
@@ -25,5 +26,6 @@ export {
   dataAnalytics,
   testingLibrary,
   design,
-  stateManagement
+  stateManagement,
+  projects
 }
