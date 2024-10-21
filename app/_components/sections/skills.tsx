@@ -41,14 +41,13 @@ export default function Skills() {
             <SubHeading text={category} className="mt-3 mb-0" />
             {values.map((value) => {
               const colorKey = colorKeys[index % colorKeys.length];
-              const isYellow = colorKey === 'yellow';
-              const isOrange = colorKey === 'orange';
+              const blackFont = ['yellow', 'orange', 'cyan']
 
               return (
                 <Pill
                   key={value}
                   style={{ backgroundColor: COLORS[colorKey] }}
-                  className={isYellow || isOrange ? 'text-black' : 'text-white'}
+                  className={blackFont.includes(colorKey) ? 'text-black' : 'text-white'}
                   text={value}
                 />
               );
