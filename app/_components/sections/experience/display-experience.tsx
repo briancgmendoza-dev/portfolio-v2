@@ -10,11 +10,11 @@ const DisplayExperience = ({ experience }: { experience: TExperience[] }) => {
       {experience.map((item, index) => (
         <li key={index} className="mb-5">
           <div className="flex items-center justify-between md:justify-evenly">
-            <Image src="" alt={item.company} className="border rounded-full mr-5 overflow-hidden" width={150} height={150} />
+            <Image src={item.logo} alt={item.company} className="border rounded-full mr-5 overflow-hidden" width={150} height={150} />
             <div className="flex flex-col">
-              <span>{item.company}</span>
+              <span className="text-[33px] font-bold">{item.company}</span>
               <span>{item.date}</span>
-              <span>{item.position}</span>
+              <span className="text-[16px] font-bold">{item.position}</span>
             </div>
           </div>
 

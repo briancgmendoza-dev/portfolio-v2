@@ -1,5 +1,6 @@
 export type TExperience = {
   company: string;
+  logo: string;
   date: string;
   position: string;
   clients?: TClient[];
