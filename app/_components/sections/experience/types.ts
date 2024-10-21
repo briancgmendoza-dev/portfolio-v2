@@ -4,10 +4,7 @@ export type TExperience = {
   date: string;
   position: string;
   site?: string;
-  clients?: TClient[];
-  frontend?: string[];
-  backend?: string[];
-  "Notable Contribution"?: string[];
+  clients: TClient[];
 }
 
 export type TClient = {
@@ -15,19 +12,16 @@ export type TClient = {
   site?: string;
   frontend?: string[];
   backend?: string[];
-  "Notable Contribution"?: string[];
+  game?: string[];
+  "Notable Contribution": TContributions;
 }
+
+export type TContributions = string[]
+
+export type TTechStack = Record<string, string[] | undefined>;
 
 export type TTechStackCategoryProps = {
   title: string;
   items?: string[];
   color: string;
-}
-
-
-export type TTechStack = {
-  frontend?: string[];
-  backend?: string[];
-  game?: string[];
-  "Notable Contribution"?: string[];
 }

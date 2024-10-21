@@ -12,7 +12,7 @@ type Link<T extends string> = {
   url?: string;
 }
 
-export default function Links({ links }: TLinks) {
+export default function Links({ links }: Readonly<TLinks>) {
   return (
     <ul className='w-[100%] md:w-[50%] flex items-center justify-center mt-5'>
     {links.map((link, index) => (

@@ -1,7 +1,9 @@
 import TechStackDisplay from "@/app/_components/sections/experience/tech-stack-display";
+import NotableContributions from "@/app/_components/sections/experience/notable-contributions";
+
 import { TClient } from "@/app/_components/sections/experience/types";
 
-export default function ClientDisplay ({ clients }: { clients: TClient[] }) {
+export default function ClientDisplay ({ clients }: Readonly<{ clients: TClient[] }>) {
   return (
     <>
       {clients.map((client, index) => (
@@ -14,17 +16,15 @@ export default function ClientDisplay ({ clients }: { clients: TClient[] }) {
             </span>
           )}
 
-          <TechStackDisplay techStack={{
-            frontend: client.frontend,
-            backend: client.backend,
-          }} />
+          <TechStackDisplay
+            techStack={{
+              frontend: client.frontend,
+              backend: client.backend,
+              game: client.game
+            }}
+          />
 
-          <p>Notable Contributions:</p>
-          <ul className="list-disc pl-5">
-            {Array.isArray(client["Notable Contribution"]) && client["Notable Contribution"].map((contribution, index) => (
-              <li key={index}>{contribution}</li>
-            ))}
-          </ul>
+          <NotableContributions contributions={client['Notable Contribution']} />
         </div>
       ))}
     </>
