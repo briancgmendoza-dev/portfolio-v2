@@ -3,12 +3,12 @@ import Pill from "@/app/_components/ui/pill";
 
 import { TTechStackCategoryProps } from "@/app/_components/sections/experience/types";
 
-export default function TechStackCategory ({ title, items, color }: TTechStackCategoryProps) {
+export default function TechStackCategory ({ title, items, color }: Readonly<TTechStackCategoryProps>) {
   if (!Array.isArray(items) || items.length === 0) return null;
 
   return (
     <div className="my-4">
-      <SubHeading text={`${title}:`}/>
+      <SubHeading text={title}/>
       {items.map((item) => (
         <Pill
           key={item}

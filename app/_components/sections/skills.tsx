@@ -1,7 +1,8 @@
-import Section from "@/app/_components/sections"
-import Heading from "@/app/_components/ui/heading"
-import SubHeading from "@/app/_components/ui/sub-heading"
-import Pill from "@/app/_components/ui/pill"
+import Section from "@/app/_components/sections";
+import Heading from "@/app/_components/ui/heading";
+import SubHeading from "@/app/_components/ui/sub-heading";
+import RenderPills from "@/app/_components/helper/render-pills";
+
 import {
   frontend,
   backend,
@@ -11,51 +12,31 @@ import {
   testingLibrary,
   design,
   stateManagement
-} from "@/app/data"
-import { COLORS } from '@/app/constants'
+} from "@/app/data";
 
 export default function Skills() {
-  const exportedStateManagement = stateManagement['state-management']
-  const exportedDataAnalytics = dataAnalytics['data-analytics']
-  const exportedTestingLibrary = testingLibrary['testing-library']
-
   const combinedData = {
     frontend,
     backend,
     design,
-    "state management": exportedStateManagement,
+    "state management": stateManagement["state-management"],
     databases,
     cloud,
-    "Data Analytics": exportedDataAnalytics,
-    "Testing Library": exportedTestingLibrary
-  }
-
-  const colorKeys = Object.keys(COLORS) as Array<keyof typeof COLORS>;
+    "data analytics": dataAnalytics["data-analytics"],
+    "testing library": testingLibrary["testing-library"]
+  };
 
   return (
     <Section>
       <ul className="py-10">
-        <Heading text="skills" />
+        <Heading text="Skills" />
         {Object.entries(combinedData).map(([category, values], index) => (
           <li key={category}>
-            <SubHeading text={category} />
-            {values.map((value) => {
-              const colorKey = colorKeys[index % colorKeys.length];
-              const isYellow = colorKey === 'yellow';
-              const isOrange = colorKey === 'orange';
-
-              return (
-                <Pill
-                  key={value}
-                  style={{ backgroundColor: COLORS[colorKey] }}
-                  className={isYellow || isOrange ? 'text-black' : 'text-white'}
-                  text={value}
-                />
-              );
-            })}
+            <SubHeading text={category} className="mt-3 mb-0" />
+            <RenderPills values={values} colorIndex={index} />
           </li>
         ))}
       </ul>
     </Section>
-  )
+  );
 }

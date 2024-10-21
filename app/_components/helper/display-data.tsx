@@ -1,11 +1,15 @@
 import SubHeading from "@/app/_components/ui/sub-heading";
 
+type TData = {
+  [key: string]: string | string[] | TData;
+}
+
 type TRecursiveComponent = {
-  object: Object;
+  object: TData;
   level?: number;
 }
 
-export default function DisplayData({ object, level = 0 }: TRecursiveComponent) {
+export default function DisplayData({ object, level = 0 }: Readonly<TRecursiveComponent>) {
   return (
     <div>
       {Object.entries(object).map(([key, value]) => (
