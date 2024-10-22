@@ -14,7 +14,7 @@ type Link<T extends string> = {
 
 export default function Links({ links }: Readonly<TLinks>) {
   return (
-    <ul className='w-[100%] md:w-[50%] flex items-center justify-center mt-5'>
+    <ul className='w-[100%] xl:w-[80%] flex items-center justify-center mt-5'>
     {links.map((link, index) => (
       <li
         key={index}
@@ -25,7 +25,7 @@ export default function Links({ links }: Readonly<TLinks>) {
             <Image src={link.icon} alt={link.name} width={25} height={25} />
           </button>
         ) : (
-          <a href={link.url} download="briancgmendoza.pdf" className='flex items-center border px-2 py-1'>
+          <a href={link.url} download="briancgmendoza.pdf" className='flex items-center border px-5 py-1'>
             <Image src={link.icon} alt={link.name} width={25} height={25} className='mr-2' />
             {link.name}
           </a>

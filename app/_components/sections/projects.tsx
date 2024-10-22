@@ -23,7 +23,7 @@ export default function Projects() {
   return (
     <Section>
       <Heading text='personal projects'/>
-      <ul className="w-[280px] sm:w-[375px] md:w-[600px] mx-auto">
+      <ul className="w-[100%] sm:w-[425px] md:w-[600px] mx-auto">
         {projects.map((project) => (
           <li key={project.name} className="flex flex-col items-center jutify-center border my-5">
             <Image
