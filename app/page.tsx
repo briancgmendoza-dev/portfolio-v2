@@ -10,7 +10,7 @@ import CharacterReference from "@/app/_components/sections/character-reference";
 export default function Home() {
   return (
     <main className="items-center justify-items-center lg:h-screen bg-black lg:overflow-hidden">
-      <div className="lg:w-[100%] flex flex-col lg:flex-row md:items-center lg:items-start justify-center">
+      <div className="lg:w-[100%] flex flex-col lg:flex-row sm:items-center lg:items-start justify-center">
         <Aside>
           <Profile />
         </Aside>
